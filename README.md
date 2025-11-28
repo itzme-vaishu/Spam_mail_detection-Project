@@ -42,26 +42,26 @@
 - Compute accuracy score
 - Generate confusion matrix to visualize classification performance
 
-### 5. Results
+## 5. Results
 - Training Accuracy: The model achieved 96.70%, showing strong learning from the training data
 - Test Accuracy: With 96.41%, the model generalizes well to unseen data, showing minimal overfitting
 
-### 6. Visualization
+## 6. Visualization
 - Confusion Matrix heatmap using Seaborn
 - Distribution plots of spam vs ham emails
 - Word frequency plots for common spam words
 
-### 7. Challenges
+## 7. Challenges
 - Imbalanced dataset (spam vs ham ratio)
 - Handling obfuscated spam (misspellings, symbols)
 - Scalability for large email volumes
 
-### 8. Future Work
+## 8. Future Work
 - Use transformer-based models (BERT, RoBERTa)
 - Add metadata features (sender reputation, links)
 - Real-time detection with streaming data
 
-### 9. Conclusion
+## 9. Conclusion
 - Logistic Regression with TF-IDF is effective for spam detection
 - Continuous retraining is essential as spam tactics evolve
 
